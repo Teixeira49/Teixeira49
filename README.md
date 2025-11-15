@@ -10,7 +10,7 @@
 </p>
 </div>
 
-## :sunglasses: Sobre mi:
+## :sunglasses: Sobre mi
 
 🎓 INGENIERO DE SISTEMAS
 
@@ -32,7 +32,7 @@
   <img src="https://skillicons.dev/icons?i=idea,androidstudio,vscode" />
 </a></p>
 
-## Analiticas de GITHUB
+## :octocat: Analiticas de GITHUB
 
 <p align="start">
 <a href="https://github.com/Teixeira49">
