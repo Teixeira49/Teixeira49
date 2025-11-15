@@ -1,17 +1,14 @@
-<h1 align="center">Holaaa 👋, Soy Javier Teixeira</h1>
-<img alt="GitHub followers" src="https://img.shields.io/github/followers/Teixeira49">
- 
-<p align="center">
-<a href="[https://www.linkedin.com/in/ing-javier-teixeira/" target="_blank">
-  <img align="center" alt="Stefanos Stamoulis | Linkedin" width="24px" src="https://github.com/SatYu26/SatYu26/blob/master/Assets/Linkedin.svg" />
-</a> &nbsp;&nbsp;
-<a href="https://www.instagram.com/javi_teixeira/" target="_blank">
-  <img align="center" alt="Stefanos Stamoulis | Instagram" width="24px" src="https://github.com/SatYu26/SatYu26/blob/master/Assets/Instagram.svg" />
-</a> &nbsp;&nbsp;
-<a href="mailto:javiertxr@gmail.com" >
-  <img align="center" alt="Stefanos Stamoulis | Gmail" width="26px" src="https://github.com/SatYu26/SatYu26/blob/master/Assets/Gmail.svg" />
-</a> &nbsp;&nbsp;
+<div align="center"> 
+<h1 >Holaaa 👋, Soy Javier Teixeira</h1>
+<img width="437" height="260" alt="image" src="https://github.com/user-attachments/assets/2c15f8b3-abc3-4fba-9927-b76e213e88d2" />
+
 <p>
+<img alt="GitHub followers" src="https://img.shields.io/github/followers/Teixeira49">
+<img alt="GitHub followers" src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ing-javier-teixeira/">
+<img alt="GitHub followers" src="https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white&link=mailto:javiertxr@gmail.com">
+<img alt="GitHub followers" src="https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&link=https://www.instagram.com/javi_teixeira/">
+</p>
+</div>
 
 ## :sunglasses: Sobre mi:
 
