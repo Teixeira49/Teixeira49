@@ -3,10 +3,10 @@
 <img width="437" height="260" alt="image" src="https://github.com/user-attachments/assets/2c15f8b3-abc3-4fba-9927-b76e213e88d2" />
 
 <p>
-<img alt="GitHub followers" src="https://img.shields.io/github/followers/Teixeira49">
-<img alt="GitHub followers" src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ing-javier-teixeira/">
-<img alt="GitHub followers" src="https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white&link=mailto:javiertxr@gmail.com">
-<img alt="GitHub followers" src="https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&link=https://www.instagram.com/javi_teixeira/">
+<a href="https://github.com/Teixeira49"><img alt="GitHub followers" src="https://img.shields.io/github/followers/Teixeira49"></a>
+<a href="https://www.linkedin.com/in/ing-javier-teixeira/"><img alt="Linkedin Account" src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white"></a>
+<a href="mailto:javiertxr@gmail.com"><img alt="javiertxr@gmail.com" src="https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white"></a>
+<a href="https://www.instagram.com/javi_teixeira/"><img alt="Instagram" src="https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram"></a>
 </p>
 </div>
 
