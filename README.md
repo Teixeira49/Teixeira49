@@ -24,12 +24,12 @@
 <p>Tecnologias conocidas</p>
 <p>
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=python,java,html,css,javascript,dart,fastapi,spring,nodejs,nestjs,flutter,react,tailwindcss,sqlite,postgres,firebase,figma,git,github&perline=10" />
+  <img src="https://skillicons.dev/icons?i=python,java,html,css,javascript,dart,fastapi,spring,nodejs,nestjs,flutter,react,tailwindcss,sqlite,postgres,firebase,jwt,figma,git,github&perline=10" />
 </a>
 </p>
-<p>Me gusta desarrollar en</p>
+<p>Me gusta desarrollar con</p>
 <p><a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=idea,androidstudio,vscode" />
+  <img src="https://skillicons.dev/icons?i=idea,androidstudio,vscode,postman" />
 </a></p>
 
 ## :octocat: Analiticas de GITHUB
@@ -40,4 +40,7 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Teixeira49&theme=gotham&show_icons=true&hide_border=true&layout=compact"/>
 </a>
 </p>
+
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=Teixeira49&theme=gotham&no-frame=false&no-bg=true&margin-w=4)
 <!--  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Teixeira49&theme=gotham&hide_border=true"/>  -->
