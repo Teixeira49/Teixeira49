@@ -24,7 +24,7 @@
 <p>Tecnologias conocidas</p>
 <p>
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=python,java,html,css,javascript,dart,fastapi,spring,nodejs,nestjs,flutter,react,tailwindcss,sqlite,postgres,firebase,jwt,figma,git,github&perline=10" />
+  <img src="https://skillicons.dev/icons?i=python,java,html,css,javascript,dart,fastapi,spring,nodejs,nestjs,flutter,react,tailwindcss,sqlite,postgres,firebase,figma,git,github&perline=10" />
 </a>
 </p>
 <p>Me gusta desarrollar con</p>
