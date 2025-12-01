@@ -24,7 +24,7 @@
 <p>Tecnologias conocidas</p>
 <p>
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=python,java,html,css,javascript,dart,fastapi,spring,nodejs,nestjs,flutter,react,tailwindcss,sqlite,postgres,firebase,figma,git,github&perline=10" />
+  <img src="https://skillicons.dev/icons?i=python,java,html,css,javascript,dart,fastapi,spring,nodejs,nestjs,flutter,react,tailwindcss,sqlite,postgres,firebase,vercel,figma,git,github&perline=10" />
 </a>
 </p>
 <p>Me gusta desarrollar con</p>
@@ -44,3 +44,9 @@
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Teixeira49&theme=gotham&no-frame=false&no-bg=true&margin-w=4)
 <!--  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Teixeira49&theme=gotham&hide_border=true"/>  -->
+
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko)
+
+---
+[![](https://visitcount.itsvg.in/api?id=Teixeira49&icon=0&color=0)](https://visitcount.itsvg.in)
