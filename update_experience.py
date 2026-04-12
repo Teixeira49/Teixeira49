@@ -1,43 +1,30 @@
-import datetime
-import os
+import re
+from datetime import datetime
 
-# 1. Tu fecha de inicio (Año, Mes, Día)
-start_date = datetime.date(2021, 5, 1) 
-current_date = datetime.date.today()
+README_PATH = 'README.md'  # Cambia esto si tu archivo se llama distinto
+START_DATE = datetime(2021, 2, 1)  # Tu fecha de inicio en experiencia laboral (cámbialo si es necesario)
 
-# 2. Cálculo de años
-years = current_date.year - start_date.year
-if (current_date.month, current_date.day) < (start_date.month, start_date.day):
-    years -= 1
+def calcular_anios_experiencia():
+    hoy = datetime.now()
+    anios = hoy.year - START_DATE.year - ((hoy.month, hoy.day) < (START_DATE.month, START_DATE.day))
+    return anios
 
-# 3. Leer el README
-if os.path.exists('README.md'):
-    with open('README.md', 'r', encoding='utf-8') as file:
-        content = file.read()
+def actualizar_readme(path):
+    with open(path, 'r', encoding='utf-8') as f:
+        contenido = f.read()
 
-    # 4. Método de Partición de Texto (SIN REGEX)
-    start_marker = ""
-    end_marker = ""
+    # Regex para encontrar la línea de experiencia
+    pattern = r'(💻 Poco mas de )\d+ (Años de experiencia laboral completados)'
+    anios = calcular_anios_experiencia()
+    nuevo_texto = f'💻 Poco mas de {anios} Años de experiencia laboral completados'
 
-    # Verificamos que los marcadores existan en el archivo
-    if start_marker in content and end_marker in content:
-        
-        # Cortamos el texto exactamente donde están los marcadores
-        texto_antes = content.split(start_marker)[0]
-        texto_despues = content.split(end_marker)[1]
-        
-        # Ensamblamos el archivo de nuevo poniendo los años exactos en el medio
-        new_content = f"{texto_antes}{start_marker}{years}{end_marker}{texto_despues}"
-
-        # 5. Guardar solo si hay cambios
-        if new_content != content:
-            with open('README.md', 'w', encoding='utf-8') as file:
-                file.write(new_content)
-            print(f"Actualizado exitosamente a {years} años de experiencia.")
-        else:
-            print("Los años ya estaban actualizados. No se hicieron cambios.")
-            
+    nuevo_contenido, n = re.subn(pattern, nuevo_texto, contenido)
+    if n == 0:
+        print("No se encontró la línea a modificar.")
     else:
-        print("Error: No se encontraron los marcadores y en el README.")
-else:
-    print("Error: No se encontró el archivo README.md")
+        with open(path, 'w', encoding='utf-8') as f:
+            f.write(nuevo_contenido)
+        print(f'Readme actualizado con {anios} años de experiencia laboral.')
+
+if __name__ == '__main__':
+    actualizar_readme(README_PATH)
