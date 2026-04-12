@@ -28,4 +28,6 @@ jobs:
           git add README.md
           # Si no hay cambios (porque los años no han subido), el commit fallará, por eso el "|| exit 0"
           git commit -m "⚡ Update years of experience" || exit 0
+          # Esta es la línea mágica que descarga tus cambios manuales antes de subir los del bot
+          git pull --rebase origin main 
           git push
