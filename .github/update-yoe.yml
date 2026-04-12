@@ -1,0 +1,31 @@
+name: Update Years of Experience
+
+on:
+  schedule:
+    # Corre todos los días a la medianoche (UTC)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Te permite darle al botón "Run" manualmente desde la pestaña Actions
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: Run update script
+        run: python update_experience.py
+        
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          # Si no hay cambios (porque los años no han subido), el commit fallará, por eso el "|| exit 0"
+          git commit -m "⚡ Update years of experience" || exit 0
+          git push
