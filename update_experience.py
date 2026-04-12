@@ -1,9 +1,8 @@
 import datetime
-import re
 import os
 
 # 1. Tu fecha de inicio (Año, Mes, Día)
-start_date = datetime.date(2023, 6, 3) 
+start_date = datetime.date(2021, 5, 1) 
 current_date = datetime.date.today()
 
 # 2. Cálculo de años
@@ -16,20 +15,29 @@ if os.path.exists('README.md'):
     with open('README.md', 'r', encoding='utf-8') as file:
         content = file.read()
 
-    # 4. Regex segura: Busca las etiquetas exactas y atrapa los números en el medio
-    pattern = r'(\s*)(\d+)(\s*)'
-    
-    # Reemplaza usando los grupos exactos (\g<1> es la primera etiqueta, \g<3> es la última)
-    replacement = r'\g<1>' + str(years) + r'\g<3>'
-    
-    new_content = re.sub(pattern, replacement, content)
+    # 4. Método de Partición de Texto (SIN REGEX)
+    start_marker = ""
+    end_marker = ""
 
-    # 5. Guardar solo si hay cambios
-    if new_content != content:
-        with open('README.md', 'w', encoding='utf-8') as file:
-            file.write(new_content)
-        print(f"Actualizado exitosamente a {years} años.")
+    # Verificamos que los marcadores existan en el archivo
+    if start_marker in content and end_marker in content:
+        
+        # Cortamos el texto exactamente donde están los marcadores
+        texto_antes = content.split(start_marker)[0]
+        texto_despues = content.split(end_marker)[1]
+        
+        # Ensamblamos el archivo de nuevo poniendo los años exactos en el medio
+        new_content = f"{texto_antes}{start_marker}{years}{end_marker}{texto_despues}"
+
+        # 5. Guardar solo si hay cambios
+        if new_content != content:
+            with open('README.md', 'w', encoding='utf-8') as file:
+                file.write(new_content)
+            print(f"Actualizado exitosamente a {years} años de experiencia.")
+        else:
+            print("Los años ya estaban actualizados. No se hicieron cambios.")
+            
     else:
-        print("No se requirieron cambios. Los años están actualizados.")
+        print("Error: No se encontraron los marcadores y en el README.")
 else:
     print("Error: No se encontró el archivo README.md")
