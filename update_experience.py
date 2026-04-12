@@ -16,7 +16,7 @@ with open('README.md', 'r', encoding='utf-8') as file:
 
 # 4. Reemplazar el número entre los marcadores invisibles usando Regex
 new_content = re.sub(
-    r'\d+',
+    \s*(\d+)\s*,
     f'{years_of_experience}',
     readme_content
 )
