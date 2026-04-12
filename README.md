@@ -21,20 +21,20 @@
 📋 Roles de Desarrollador 📲 Mobile, ⚙️ Backend, 🧩 Scrum Master, 🗺️ freelance... y hacia donde nos lleve el destino 🔭
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"> <b>My Skills</b> 
-<p>Tecnologias conocidas</p>
+<blockquote>Tecnologias conocidas</blockquote>
 <p>
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=python,java,html,css,javascript,dart,fastapi,spring,nodejs,nestjs,flutter,react,tailwindcss,sqlite,postgres,firebase,vercel,figma,git,github&perline=10" />
 </a>
 </p>
-<p>Me gusta desarrollar con</p>
+<blockquote>Me gusta desarrollar con</blockquote>
 <p><a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=idea,androidstudio,vscode,postman" />
 </a></p>
 
 ## 🚀 Proyectos y Experiencia
 
-<blockquote align="center">
+<blockquote>
   Desarrollando tecnología con propósito. He tenido el privilegio de impulsar el crecimiento y la arquitectura de estos ecosistemas digitales:
 </blockquote>
 
@@ -58,11 +58,9 @@
 
 ## :octocat: Analiticas de GITHUB
 
-<p align="start">
-<a href="https://github.com/Teixeira49">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Teixeira49&theme=gotham&show_icons=true&hide_border=true&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Teixeira49&theme=gotham&show_icons=true&hide_border=true&layout=compact"/>
-</a>
+<p align="left">
+<a href="https://github.com/Teixeira49"><img height="180" src="https://github-readme-stats.vercel.app/api?username=Teixeira49&theme=gotham&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400"/></a>
+<a href="https://github.com/Teixeira49"><img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Teixeira49&theme=gotham&show_icons=true&hide_border=true&layout=compact&cache_seconds=86400"/></a>
 </p>
 
 ## 🏆 GitHub Trophies
