@@ -1,28 +1,35 @@
 import datetime
 import re
+import os
 
-# 1. Configura tu fecha de inicio (Año, Mes, Día)
-start_date = datetime.date(2023, 6, 4) # ¡Cambia esto por tu fecha!
+# 1. Tu fecha de inicio (Año, Mes, Día)
+start_date = datetime.date(2023, 6, 3) 
 current_date = datetime.date.today()
 
-# 2. Calcular años de experiencia reales
-years_of_experience = current_date.year - start_date.year
+# 2. Cálculo de años
+years = current_date.year - start_date.year
 if (current_date.month, current_date.day) < (start_date.month, start_date.day):
-    years_of_experience -= 1
+    years -= 1
 
-# 3. Leer el README actual
-with open('README.md', 'r', encoding='utf-8') as file:
-    readme_content = file.read()
+# 3. Leer el README
+if os.path.exists('README.md'):
+    with open('README.md', 'r', encoding='utf-8') as file:
+        content = file.read()
 
-# 4. Reemplazar el número entre los marcadores invisibles usando Regex
-new_content = re.sub(
-    r'\s*(\d+)\s*',
-    f'{years_of_experience}',
-    readme_content
-)
-
-# 5. Guardar los cambios
-with open('README.md', 'w', encoding='utf-8') as file:
-    file.write(new_content)
+    # 4. Regex segura: Busca las etiquetas exactas y atrapa los números en el medio
+    pattern = r'(\s*)(\d+)(\s*)'
     
-print(f"Experiencia actualizada a {years_of_experience} años.")
+    # Reemplaza usando los grupos exactos (\g<1> es la primera etiqueta, \g<3> es la última)
+    replacement = r'\g<1>' + str(years) + r'\g<3>'
+    
+    new_content = re.sub(pattern, replacement, content)
+
+    # 5. Guardar solo si hay cambios
+    if new_content != content:
+        with open('README.md', 'w', encoding='utf-8') as file:
+            file.write(new_content)
+        print(f"Actualizado exitosamente a {years} años.")
+    else:
+        print("No se requirieron cambios. Los años están actualizados.")
+else:
+    print("Error: No se encontró el archivo README.md")
