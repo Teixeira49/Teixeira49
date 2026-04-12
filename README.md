@@ -14,7 +14,7 @@
 
 🎓 INGENIERO DE SISTEMAS
 
-💻 Poco mas de 2 Años de experiencia laboral completados sin morir en el intento
+💻 Poco mas de 2Años de experiencia laboral completados sin morir en el intento
 
 🚀 Aficionado de la tecnologia y el emprendimiento
 
@@ -65,8 +65,6 @@
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Teixeira49&theme=gotham&no-frame=false&no-bg=true&margin-w=4)
-<!--  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Teixeira49&theme=gotham&hide_border=true"/>  -->
-
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko)
 
