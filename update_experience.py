@@ -2,7 +2,7 @@ import re
 from datetime import datetime
 
 README_PATH = 'README.md'  # Cambia esto si tu archivo se llama distinto
-START_DATE = datetime(2021, 2, 1)  # Tu fecha de inicio en experiencia laboral (cámbialo si es necesario)
+START_DATE = datetime(2023, 6, 3)  # Tu fecha de inicio en experiencia laboral (cámbialo si es necesario)
 
 def calcular_anios_experiencia():
     hoy = datetime.now()
