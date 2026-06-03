@@ -14,7 +14,7 @@
 
 🎓 INGENIERO DE SISTEMAS
 
-💻 Poco mas de 2 Años de experiencia laboral completados sin morir en el intento
+💻 Poco mas de 3 Años de experiencia laboral completados sin morir en el intento
 
 🚀 Aficionado de la tecnologia y el emprendimiento
 
